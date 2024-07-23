@@ -65,13 +65,14 @@ font-family: 'Times New Roman', Times, robo;
     width: 14%;
     height: 43%;
     left: 62%;
+    top: 33%;
 }
 .dogimage2{
     position: absolute;
     width: 16%;
-    height: 40%;
-    left: 81%;
-    top: -6%;
+    height: 41%;
+    left: 78%;
+    top: -10%;
     pointer-events: none;
 }
 .dogimage3{
@@ -88,6 +89,13 @@ font-family: 'Times New Roman', Times, robo;
     height: 54%;
     left: 80%;
     top: 46%;
+}
+.dogimage5{
+    position: absolute;
+    width: 18%;
+    height: 54%;
+    left: 63%;
+    top: 8%;
 }
 .firstimageprop{
     width: 113%;
@@ -117,9 +125,9 @@ font-family: 'Times New Roman', Times, robo;
 }
 .movingfont{
     position: absolute;
-    top: 57%;
+    top: 45%;
     left: 25%;
     font-size: 501%;
     width: 75%;
-    font-weight: 400;
+    font-weight: 600;
 }
