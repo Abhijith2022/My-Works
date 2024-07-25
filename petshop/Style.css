@@ -45,7 +45,7 @@ width: 50%;
 
 }
 .bg{
-    /* background-color: #FFAA00; */
+    background-color: #FFAA00;
 }
 
 .firstimage-proper{
@@ -64,4 +64,8 @@ width: 50%;
 .fourth-prop{
     margin-left: 90%;
     margin-top: -20%;
+}
+.navFont-weight{
+    font-size: larger;
+    font-weight: 700;
 }
