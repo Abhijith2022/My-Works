@@ -1,71 +1,85 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Times New Roman', Times, robo;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, robo;
 }
-.linkhead{
-    color: black;
-    text-decoration-line: blink;
-    
+.linkhead {
+  color: black;
+  text-decoration-line: blink;
 }
-.linkhead-hm{
-    color: #FFAA00;
+.linkhead-hm {
+  color: #ffaa00;
 
-    text-decoration-line: blink;
-    
+  text-decoration-line: blink;
 }
-.btnclick{
-    color: white;
-    background: #124C5F;
-    height: 39px;
-    width: 101px;
+.btnclick {
+  color: white;
+  background: #124c5f;
+  height: 39px;
+  width: 101px;
 }
-.nav{
-    font-size: x-large;
-
+.nav {
+  font-size: x-large;
 }
-.btnlogin{
-    background: #C7E7E1;
-    height: 39px;
-    width: 101px;
+.btnlogin {
+  background: #c7e7e1;
+  height: 39px;
+  width: 101px;
 }
 /* .main{
   background-color:   #FFF2B357
 } */
-.bckrndclr{
-   background: #FFF2B357;
-    height: 630px;
-    margin-left: -13px;
-    border-radius: 0% 100% 100% 0% / 52% 100% 0% 48% 
-    
+.bckrndclr {
+  background: #fff2b357;
+  height: 630px;
+  margin-left: -13px;
+  border-radius: 0% 100% 100% 0% / 52% 100% 0% 48%;
 }
-.imageProperties{
-width: 50%;
-
+.imageProperties {
+  position: absolute;
+  width: 250px;
+  right: 100px;
+  margin-top: 16vh;
 }
-.bg{
-    background-color: #FFAA00;
+.bg {
+  background-color: #ffaa00;
+  position: relative;
+  height: 90vh;
+  width: 100%;
 }
-
-.firstimage-proper{
-    margin-left: 172%;
-    margin-top: 15%;
+.relative{
+    position: relative;
 }
-.second-proper{
-        margin-top: 39%;
-    margin-left: 141%;
+.first {
+    right: 320px;
+    top: 22vh;
+    width: 210px;
 }
-.third-proper{
-    
-    margin-top: -27%;
-    margin-left: 243%;
+.second{
+    right: 350px;
+    top:0;
+    width: 210px;
 }
-.fourth-prop{
-    margin-left: 90%;
-    margin-top: -20%;
+.third {
+    top: 22vh;
+    width: 210px;
 }
-.navFont-weight{
-    font-size: larger;
-    font-weight: 700;
+.forth{
+    top:0;
+    width: 210px;
+}
+.fifth{
+    top: 16vh;
+    right: 200px;
+}
+.banner-first .first {
+}
+.banner-first .second {
+}
+.banner-first .third {
+}
+.banner-first .forth {
+}
+.banner-first .fifth {
 }
